@@ -87,7 +87,7 @@ public class HumanPlayer extends Player {
 			}
 		}
 
-		for(int i = 0; i < numberOfBattleships; i++) {
+		for (int i = 0; i < numberOfBattleships; i++) {
 			for(int j = 0; j <  battleshipLength; j++) {
 				board.setPlayerId(battleshipCoordinates[i] + j, i, id);
 			}
